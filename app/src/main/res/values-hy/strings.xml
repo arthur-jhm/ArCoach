@@ -1,0 +1,471 @@
+<resources>
+    <string name="app_name">ArCoach</string>
+    <string name="back">Back</string>
+    <string name="help">Օգնություն</string>
+    <string name="yes">Այո</string>
+    <string name="cancel">Չեղարկել</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Գլխավոր</string>
+    <string name="nav_guide">Ուղեցույց</string>
+    <string name="nav_statistics">Վիճակագրություն</string>
+    <string name="nav_profile">Պրոֆիլ</string>
+
+    <!-- Menu -->
+    <string name="menu_achievements">Նվաճումներ</string>
+    <string name="menu_settings">Կարգավորումներ</string>
+    <string name="menu_help">Օգնություն</string>
+    <string name="menu_about">Ծրագրի մասին</string>
+    <string name="menu_exit">Ելք</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_tagline">Քո անձնական մարզիչը</string>
+    <string name="splash_version">Տարբերակ %s</string>
+
+    <!-- Exit Dialog -->
+    <string name="exit_title">Ելք ծրագրից</string>
+    <string name="exit_message">Դուք իսկապե՞ս ուզում եք դուրս գալ։</string>
+
+    <!-- Home Fragment -->
+    <string name="streak">🔥 %d օր</string>
+    <string name="today_workouts">Այսօր՝ %d մարզում</string>
+    <string name="motivation_1">Սկսիր մարզվել հենց հիմա։</string>
+    <string name="motivation_2">Այսօր հիանալի օր է մարզվելու համար։</string>
+    <string name="motivation_3">Քո մարմինը կշնորհակալ լինի։</string>
+    <string name="motivation_4">Յուրաքանչյուր մարզում քեզ մոտեցնում է նպատակին։</string>
+    <string name="motivation_5">Մի հետաձգիր վաղվա համար։</string>
+    <string name="squats">ՆՍՏԵԼԻՔ</string>
+    <string name="pushups">ՀԱՐՈՂ</string>
+    <string name="jumping_jacks">ԹՌԻՉՔՆԵՐ</string>
+    <string name="plank">ՊԼԱՆԿ</string>
+    <string name="subtitle_squats">Ոտքեր · Հետույք</string>
+    <string name="subtitle_pushups">Կուրծք · Եռագլուխ</string>
+    <string name="subtitle_jumping_jacks">Ամբողջ մարմին · Կարդիո</string>
+    <string name="subtitle_plank">Միջուկ · Կայունություն</string>
+
+    <!-- Pre-Workout Screen -->
+    <string name="exercise_squats">ՆՍՏԵԼԻՔ</string>
+    <string name="exercise_pushups">ՀԱՐՈՂ</string>
+    <string name="exercise_jumping_jacks">ԹՌԻՉՔՆԵՐ</string>
+    <string name="exercise_plank">ՊԼԱՆԿ</string>
+    <string name="how_to_prepare">Ինչպես պատրաստվել՝</string>
+    <string name="instructions_squats">📱 Դիր հեռախոսը ԿՈՂՔԻՑ գոտկատեղի մակարդակում\n\n📏 Կանգնիր 1.5-2 մետր հեռավորությամբ\n\n👤 Համոզվիր, որ ամբողջ մարմինը երևում է կադրում\n\n💡 Միացրու լավ լուսավորությունը</string>
+    <string name="instructions_pushups">📱 Դիր հեռախոսը ԿՈՂՔԻՑ\n\n📏 Կանգնիր 1.5-2 մետր հեռավորությամբ\n\n👤 Համոզվիր, որ ամբողջ մարմինը երևում է կադրում\n\n💡 Միացրու լավ լուսավորությունը</string>
+    <string name="instructions_jumping_jacks">📱 Դրեք հեռախոսը գետին\n📏 Կանգնեք տեսախցիկից 2-3մ հեռավորության վրա\n💡 Անհրաժեշտ է լավ լուսավորություն\n👕 Հագեք հակադրական հագուստ\n\nԹռեք՝ բացելով ձեռքերն ու ոտքերը!</string>
+    <string name="instructions_plank">📱 Դրեք հեռախոսը կողքից\n📏 Տեսախցիկից 2մ հեռավորության վրա\n💡 Անհրաժեշտ է լավ լուսավորություն\n👕 Հագեք հակադրական հագուստ\n\nՊահպանեք ուղիղ մարմնի դիրքը!</string>
+    <string name="start_workout">ՍԿՍԵԼ ՄԱՐԶՈՒՄԸ</string>
+
+    <!-- Workout Screen -->
+    <string name="reps_count">%d</string>
+    <string name="switch_camera">Փոխել տեսախցիկը</string>
+
+    <!-- Voice tips (spoken by TTS, no emoji) -->
+    <string name="voice_tip_squat_too_deep">Դուք շատ խոր եք նստում: Վերահսկեք նստելու խորությունը:</string>
+    <string name="voice_tip_plank_hips_high">Կոնքը շատ բարձր է: Իջեցրեք այն, որպեսզի մարմինը ուղիղ լինի:</string>
+    <string name="voice_tip_plank_hips_low">Կոնքը ցած է կախված: Բարձրացրեք այն և ձգեք որովայնի մկանները:</string>
+    <string name="voice_tip_plank_not_in_position">Ձեռք բռնեք: Մարմինը հենեք ձեռքերի կամ նախաբազուկների վրա:</string>
+    <string name="voice_tip_pushup_too_deep">Դուք շատ խոր եք իջնում: Կրծքավանդակը մինչև հատակ մի իջեցրեք:</string>
+    <string name="voice_tip_pushup_body_sagging">Մարմինը ուղիղ գծի մեջ չէ: Ձգեք որովայնի մկանները և բարձրացրեք կոնքը:</string>
+
+    <!-- Bottom sheet exercise detail -->
+    <string name="sheet_reps_chart_label">Կրկնությունները ըստ նստաշրջանների (վերջին 10)</string>
+    <string name="sheet_plank_chart_label">Տևողությունը ըստ նստաշրջանների, վրկ (վերջին 10)</string>
+    <string name="sheet_accuracy_chart_label">Ճշգրտություն % ըստ նստաշրջանների (վերջին 10)</string>
+    <string name="stat_total_seconds">Ընդամենը՝ %d վրկ</string>
+    <string name="stat_best_seconds">Լավագույն՝ %d վրկ</string>
+
+    <!-- Voice motivations (every 5 reps) -->
+    <string name="voice_motivation_1">Հիանալի աշխատանք!</string>
+    <string name="voice_motivation_2">Շարունակիր!</string>
+    <string name="voice_motivation_3">Դու հիանալի ես!</string>
+    <string name="voice_motivation_4">Գերազանց!</string>
+
+    <!-- Guide Screen -->
+    <string name="guide_title">📖 Ուղեցույց</string>
+    <string name="guide_start_title">🚀 Ինչպես սկսել</string>
+    <string name="guide_start_text">1. Ընտրիր վարժությունը գլխավոր էջում\n\n2. Պատրաստիր տեղը մարզման համար\n\n3. Տեղադրիր հեռախոսը ըստ հրահանգի\n\n4. Սկսիր մարզումը։</string>
+    <string name="guide_camera_title">📱 Հեռախոսի տեղադրում</string>
+    <string name="guide_camera_text">• Դիր հեռախոսը քո ԿՈՂՔԻՑ\n\n• Տեսախցիկը պետք է լինի գոտկատեղի մակարդակում\n\n• Հեռավորություն՝ 1.5-2 մետր\n\n• Ամբողջ մարմինը պետք է լինի կադրում\n\n• Օգտագործիր վահանակ կամ գրքերի կույտ</string>
+    <string name="guide_lighting_title">💡 Լուսավորություն</string>
+    <string name="guide_lighting_text">• Մարզվիր լավ լուսավորությամբ\n\n• Լույսը պետք է լինի առջևից, ոչ թե հետևից\n\n• Խուսափիր կոշտ ստվերներից\n\n• Ավելի լավ է մարզվել ցերեկ պատուհանի մոտ</string>
+    <string name="guide_clothes_title">👕 Ինչ հագնել</string>
+    <string name="guide_clothes_text">• Մարմնամերձ մարզական հագուստ\n\n• Խուսափիր շատ ազատ հագուստից\n\n• Տեսախցիկը պետք է տեսնի հոդերը\n\n• Հակադիր գույները ավելի լավ են օգնում</string>
+    <string name="guide_tips_title">💪 Մարզման խորհուրդներ</string>
+    <string name="guide_tips_text">• Ջերմացիր մարզումից առաջ\n\n• Լսիր ձայնային հուշումները\n\n• Հետևիր տեխնիկային, ոչ թե արագությանը\n\n• Սկսիր փոքր թվով կրկնություններից\n\n• Աստիճանաբար ավելացրու բեռը\n\n• Մարզվիր կանոնավոր</string>
+
+    <!-- Statistics Screen -->
+    <string name="statistics_title">📊 Վիճակագրություն</string>
+    <string name="general_stats">Ընդհանուր վիճակագրություն</string>
+    <string name="total_workouts_label">Մարզումներ</string>
+    <string name="total_reps_label">Կրկնություններ</string>
+    <string name="total_time_label">Ժամանակ</string>
+    <string name="streak_label">Շարք 🔥</string>
+    <string name="total_workouts_value">%d</string>
+    <string name="total_reps_value">%d</string>
+    <string name="total_time_value">%d րոպե</string>
+    <string name="streak_value">%d օր</string>
+    <string name="graphs_placeholder">Գրաֆիկները կհայտնվեն այստեղ</string>
+
+    <!-- Charts -->
+    <string name="reps_last_7_days">Կրկնություններ վերջին 7 օրվա</string>
+    <string name="accuracy_trend">Ճշգրտության միտում</string>
+    <string name="exercise_distribution">Վարժությունների բաշխում</string>
+    <string name="exercise_details">Վարժությունների մանրամասներ</string>
+    <string name="total_reps_detail">Ընդամենը՝ %d կրկնություն</string>
+    <string name="best_reps">Լավագույնը՝ %d կրկնություն</string>
+    <string name="avg_accuracy">Միջին ճշգրտություն՝ %d%%</string>
+    <string name="no_data_available">Տվյալներ չկան</string>
+
+    <string name="exercise_squats_label">🏋️ Սկվոթ</string>
+    <string name="exercise_pushups_label">💪 Մղում</string>
+    <string name="exercise_jumping_jacks_label">🦘 Ցատկ</string>
+    <string name="exercise_plank_label">🧘 Պլանկ</string>
+    <string name="stat_sessions">Նստաշրջաններ՝ %d</string>
+    <string name="stat_total_reps">Ընդամենը՝ %d կրկն.</string>
+    <string name="stat_best_reps">Լավագույն՝ %d կրկն.</string>
+    <string name="stat_avg_accuracy">Մ. ճշգրտություն՝ %d%%</string>
+    <string name="no_exercise_data">Մարզումներ դեռ չկան: Սկսեք մարզվել!</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">👤 Պրոֆիլ</string>
+    <string name="user_name">Մարզիկ</string>
+    <string name="user_level">Մակարդակ %d</string>
+    <string name="user_rank_beginner">Սկսնակ</string>
+    <string name="achievements_label">🏆 Նվաճումներ</string>
+    <string name="achievements_unlocked">Ապակողպված՝</string>
+    <string name="achievements_count">%d/%d</string>
+    <string name="edit_profile">ԽՄԲԱԳՐԵԼ ՊՐՈՖԻԼԸ</string>
+
+    <!-- Profile - Personal Info -->
+    <string name="personal_info">Անձնական տվյալներ</string>
+    <string name="age">Տարիք</string>
+    <string name="height">Հասակ</string>
+    <string name="weight">Քաշ</string>
+    <string name="bmi">ՄՄԻ</string>
+    <string name="birth_date">Ծննդյան ամսաթիվ</string>
+    <string name="select_date">Ընտրեք ամսաթիվը</string>
+    <string name="years_old">տարեկան</string>
+    <string name="cm">սմ</string>
+    <string name="kg">կգ</string>
+    <string name="height_hint">170</string>
+    <string name="weight_hint">70.0</string>
+
+    <!-- Edit Profile -->
+    <string name="current_avatar">Ընթացիկ ավատար</string>
+    <string name="your_name">Ձեր անունը</string>
+    <string name="enter_your_name">Մուտքագրեք ձեր անունը</string>
+    <string name="choose_avatar">Ընտրեք ավատար</string>
+    <string name="save">ՊԱՀՊԱՆԵԼ</string>
+    <string name="profile_saved">Պրոֆիլը պահպանված է։</string>
+    <string name="name_cannot_be_empty">Անունը չի կարող դատարկ լինել</string>
+
+    <!-- Profile ranks -->
+    <string name="user_rank_intermediate">Միջին</string>
+    <string name="user_rank_advanced">Առաջադեմ</string>
+    <string name="user_rank_expert">Փորձագետ</string>
+
+    <!-- BMI Categories -->
+    <string name="bmi_underweight">Թերքաշ</string>
+    <string name="bmi_normal">Նորմալ</string>
+    <string name="bmi_overweight">Ավելորդ քաշ</string>
+    <string name="bmi_obese">Ճարպակալում</string>
+
+    <!-- Validation errors -->
+    <string name="invalid_height">Հասակը պետք է լինի 50-250 սմ միջակայքում</string>
+    <string name="invalid_weight">Քաշը պետք է լինի 20-300 կգ միջակայքում</string>
+    <string name="invalid_number">Սխալ թիվ</string>
+
+    <!-- About Screen -->
+    <string name="about_title">Ծրագրի մասին</string>
+    <string name="version">Տարբերակ %s</string>
+    <string name="about_description">ArCoach-ը անձնական մարզիչ է քո գրպանում։ Հավելվածը օգտագործում է արհեստական բանականություն՝ իրական ժամանակում վարժությունների տեխնիկան վերլուծելու համար։</string>
+    <string name="developed_for">Մշակված Samsung Campus-ի համար</string>
+    <string name="copyright">© 2025 ArCoach</string>
+
+    <!-- Help Screen -->
+    <string name="help_title">❓ Հաճախ տրվող հարցեր</string>
+    <string name="help_q1">Ինչպես տեղադրել հեռախոսը։</string>
+    <string name="help_a1">Դիր հեռախոսը կողքից գոտկատեղի մակարդակում։ Հեռավորություն՝ 1.5-2 մետր։ Ամբողջ մարմինը պետք է լինի կադրում։</string>
+    <string name="help_q2">Հավելվածը չի հաշվում կրկնությունները</string>
+    <string name="help_a2">Ստուգիր լուսավորությունը և համոզվիր, որ ամբողջ մարմինը երևում է կադրում։ Կատարիր վարժությունը ամբողջական շարժումով։</string>
+    <string name="help_q3">Անհրաժեշտ է արդյոք ինտերնետ։</string>
+    <string name="help_a3">Ոչ։ Հավելվածը լիովին աշխատում է օֆլայն ռեժիմում։ Ամբողջ մշակումը տեղի է ունենում քո սարքում։</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Կարգավորումներ</string>
+    <string name="settings_workout">Մարզման կարգավորումներ</string>
+    <string name="settings_notifications">Ծանուցումներ</string>
+    <string name="settings_voice_prompts">Ձայնային հուշումներ</string>
+    <string name="settings_volume">Ձայնի բարձրություն</string>
+    <string name="settings_vibration">Թրթռում</string>
+    <string name="settings_enable_notifications">Միացնել հիշեցումները</string>
+    <string name="settings_reminder_time">Հիշեցման ժամանակ</string>
+    <string name="settings_select_time">Ընտրեք ժամանակը</string>
+    <string name="settings_danger_zone">Վտանգավոր գոտի</string>
+    <string name="settings_clear_all_data">Մաքրել բոլոր տվյալները</string>
+
+    <!-- Permissions -->
+    <string name="permission_granted">Թույլտվությունը տրված է</string>
+    <string name="permission_denied">Թույլտվությունը մերժված է։ Միացրեք Կարգավորումներում՝ հիշեցումները օգտագործելու համար։</string>
+    <string name="exact_alarm_title">Անհրաժեշտ է ճշգրիտ զգուշացման թույլտվություն</string>
+    <string name="exact_alarm_message">Ճշգրիտ ժամանակին հիշեցումներ ուղարկելու համար, խնդրում ենք միացնել «Զարթուցիչներ և հիշեցումներ» թույլտվությունը Կարգավորումներում։</string>
+    <string name="exact_alarm_permission_required">Ճշգրիտ հիշեցումների համար անհրաժեշտ է զարթուցչի թույլտվություն</string>
+    <string name="open_settings">Բացել Կարգավորումները</string>
+    <string name="test_notification">Փորձարկել ծանուցումը</string>
+    <!-- Notification permission -->
+    <string name="notification_permission_title">Անհրաժեշտ է ծանուցումների թույլտվություն</string>
+    <string name="notification_permission_message">ArCoach-ին անհրաժեշտ է թույլտվություն՝ մարզման հիշեցումներ ուղարկելու համար։ Խնդրում ենք տալ ծանուցումների թույլտվությունը։</string>
+    <string name="grant_permission">Տալ թույլտվություն</string>
+    <!-- Manual permission -->
+    <string name="enable_manually_title">Միացնել ծանուցումները ձեռքով</string>
+    <string name="enable_manually_message">Անցեք Կարգավորումներ -> Հավելվածներ -> ArCoach -> Ծանուցումներ և միացրեք բոլոր ծանուցումները։</string>
+    <string name="request_again">Հարցնել կրկին</string>
+
+    <!-- Toasts -->
+    <string name="voice_enabled">Ձայնային հուշումները միացված են</string>
+    <string name="voice_disabled">Ձայնային հուշումները անջատված են</string>
+    <string name="vibration_enabled">Թրթռումը միացված է</string>
+    <string name="vibration_disabled">Թրթռումը անջատված է</string>
+    <string name="notifications_enabled">Հիշեցումները միացված են</string>
+    <string name="notifications_disabled">Հիշեցումները անջատված են</string>
+    <string name="reminder_set">Ամենօրյա հիշեցումը դրված է ժամը %s</string>
+    <string name="data_cleared">Բոլոր տվյալները հաջողությամբ հեռացվեցին</string>
+
+    <!-- Dialogs -->
+    <string name="clear_data_title">Մաքրել բոլոր տվյալները՞</string>
+    <string name="clear_data_message">Սա կջնջի ձեր բոլոր մարզումները, վիճակագրությունը և նվաճումները։ Այս գործողությունը հնարավոր չէ հետարկել։</string>
+    <string name="yes_delete">Այո, ջնջել ամեն ինչ</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Մարզվելու ժամանակն է՛ 💪</string>
+    <string name="notification_text">Շարունակիր շարքդ՛ Սկսիր արագ մարզում հիմա։</string>
+    <string name="notification_channel_name">Մարզման հիշեցումներ</string>
+    <string name="notification_channel_description">Ամենօրյա մարզման հիշեցումներ</string>
+
+    <!-- Achievements Screen -->
+    <string name="achievements_title0">Նվաճումները</string>
+    <string name="achievements_title">🏆 Քո նվաճումները</string>
+    <string name="achievements_placeholder">Նվաճումները կհայտնվեն այստեղ առաջին մարզումից հետո։</string>
+    <string name="achievements_unlocked_summary">Ապակողպված՝ %d / %d</string>
+
+    <!-- Achievement category headers -->
+    <string name="category_first_steps">Առաջին քայլեր</string>
+    <string name="category_workouts">Մարզումներ</string>
+    <string name="category_reps">Կրկնություններ</string>
+    <string name="category_streak">Շարք</string>
+    <string name="category_squats">Սկվոթ</string>
+    <string name="category_pushups">Մղում</string>
+    <string name="category_jumping_jacks">Ցատկեր</string>
+    <string name="category_plank">Պլանկ</string>
+    <string name="category_accuracy">Ճշգրտություն</string>
+    <string name="category_time">Մարզման ժամ</string>
+    <string name="category_session">Մեկ մարզումում</string>
+
+    <!-- Achievement titles and descriptions -->
+    <string name="achievement_first_workout_title">Առաջին քայլեր</string>
+    <string name="achievement_first_workout_desc">Ավարտեք ձեր առաջին մարզումը</string>
+
+    <string name="achievement_first_10_reps_title">Սկիզբ</string>
+    <string name="achievement_first_10_reps_desc">Կատարեք ընդհանուր 10 կրկնություն</string>
+
+    <string name="achievement_10_workouts_title">Նվիրված</string>
+    <string name="achievement_10_workouts_desc">Ավարտեք 10 մարզում</string>
+
+    <string name="achievement_50_workouts_title">Հավատարիմ</string>
+    <string name="achievement_50_workouts_desc">Ավարտեք 50 մարզում</string>
+
+    <string name="achievement_100_workouts_title">Հարյուր</string>
+    <string name="achievement_100_workouts_desc">Ավարտեք 100 մարզում</string>
+
+    <string name="achievement_100_reps_title">Բրոնզ</string>
+    <string name="achievement_100_reps_desc">Կատարեք ընդհանուր 100 կրկնություն</string>
+
+    <string name="achievement_500_reps_title">Արծաթ</string>
+    <string name="achievement_500_reps_desc">Կատարեք ընդհանուր 500 կրկնություն</string>
+
+    <string name="achievement_1000_reps_title">Ոսկի</string>
+    <string name="achievement_1000_reps_desc">Կատարեք ընդհանուր 1000 կրկնություն</string>
+
+    <string name="achievement_5000_reps_title">Ադամանդ</string>
+    <string name="achievement_5000_reps_desc">Կատարեք ընդհանուր 5000 կրկնություն</string>
+
+    <string name="achievement_streak_3_title">Տաք շարք</string>
+    <string name="achievement_streak_3_desc">Մարզվեք 3 օր անընդմեջ</string>
+
+    <string name="achievement_streak_7_title">Շաբաթվա պատերազմող</string>
+    <string name="achievement_streak_7_desc">Մարզվեք 7 օր անընդմեջ</string>
+
+    <string name="achievement_streak_30_title">Ամսվա վարպետ</string>
+    <string name="achievement_streak_30_desc">Մարզվեք 30 օր անընդմեջ</string>
+
+    <string name="achievement_streak_100_title">Անկասելի</string>
+    <string name="achievement_streak_100_desc">Մարզվեք 100 օր անընդմեջ</string>
+
+    <string name="achievement_25_workouts_title">Ուղու վրա</string>
+    <string name="achievement_25_workouts_desc">Ավարտեք 25 մարզում</string>
+    <string name="achievement_200_workouts_title">Էլիտ</string>
+    <string name="achievement_200_workouts_desc">Ավարտեք 200 մարզում</string>
+    <string name="achievement_500_workouts_title">Լեգենդ</string>
+    <string name="achievement_500_workouts_desc">Ավարտեք 500 մարզում</string>
+
+    <string name="achievement_250_reps_title">Բարձրացող աստղ</string>
+    <string name="achievement_250_reps_desc">Կատարեք ընդհանուր 250 կրկնություն</string>
+    <string name="achievement_2500_reps_title">Չեմպիոն</string>
+    <string name="achievement_2500_reps_desc">Կատարեք ընդհանուր 2500 կրկնություն</string>
+    <string name="achievement_10000_reps_title">Լեգենդ</string>
+    <string name="achievement_10000_reps_desc">Կատարեք ընդհանուր 10000 կրկնություն</string>
+
+    <string name="achievement_streak_14_title">Երկու շաբաթվա պատերազմող</string>
+    <string name="achievement_streak_14_desc">Մարզվեք 14 օր անընդմեջ</string>
+    <string name="achievement_streak_60_title">Երկաթե կամք</string>
+    <string name="achievement_streak_60_desc">Մարզվեք 60 օր անընդմեջ</string>
+    <string name="achievement_streak_365_title">Ամբողջ տարի</string>
+    <string name="achievement_streak_365_desc">Մարզվեք 365 օր անընդմեջ</string>
+
+    <string name="achievement_squats_50_title">Սկսնակ սկվոթ</string>
+    <string name="achievement_squats_50_desc">Կատարեք ընդհանուր 50 սկվոթ</string>
+    <string name="achievement_squats_500_title">Սկվոթի պրոֆ</string>
+    <string name="achievement_squats_500_desc">Կատարեք ընդհանուր 500 սկվոթ</string>
+    <string name="achievement_squats_2000_title">Սկվոթի վարպետ</string>
+    <string name="achievement_squats_2000_desc">Կատարեք ընդհանուր 2000 սկվոթ</string>
+
+    <string name="achievement_pushups_50_title">Սկսնակ մղում</string>
+    <string name="achievement_pushups_50_desc">Կատարեք ընդհանուր 50 մղում</string>
+    <string name="achievement_pushups_500_title">Մղման պրոֆ</string>
+    <string name="achievement_pushups_500_desc">Կատարեք ընդհանուր 500 մղում</string>
+    <string name="achievement_pushups_2000_title">Մղման վարպետ</string>
+    <string name="achievement_pushups_2000_desc">Կատարեք ընդհանուր 2000 մղում</string>
+
+    <string name="achievement_jacks_100_title">Ցատկի սկսնակ</string>
+    <string name="achievement_jacks_100_desc">Կատարեք ընդհանուր 100 ցատկ</string>
+    <string name="achievement_jacks_1000_title">Ցատկի պրոֆ</string>
+    <string name="achievement_jacks_1000_desc">Կատարեք ընդհանուր 1000 ցատկ</string>
+    <string name="achievement_jacks_5000_title">Ցատկի վարպետ</string>
+    <string name="achievement_jacks_5000_desc">Կատարեք ընդհանուր 5000 ցատկ</string>
+
+    <string name="achievement_plank_60_title">Պլանկի սկսնակ</string>
+    <string name="achievement_plank_60_desc">Պահեք պլանկ ընդհանուր 1 րոպե</string>
+    <string name="achievement_plank_600_title">Պլանկի պրոֆ</string>
+    <string name="achievement_plank_600_desc">Պահեք պլանկ ընդհանուր 10 րոպե</string>
+    <string name="achievement_plank_3600_title">Պլանկի վարպետ</string>
+    <string name="achievement_plank_3600_desc">Պահեք պլանկ ընդհանուր 1 ժամ</string>
+
+    <string name="achievement_accuracy_1_title">Պերֆեկցիոնիստ</string>
+    <string name="achievement_accuracy_1_desc">Ավարտեք 1 մարզում 80%+ ճշգրտությամբ</string>
+    <string name="achievement_accuracy_5_title">Ձևի փորձագետ</string>
+    <string name="achievement_accuracy_5_desc">Ավարտեք 5 մարզում 80%+ ճշգրտությամբ</string>
+    <string name="achievement_accuracy_20_title">Անթերի</string>
+    <string name="achievement_accuracy_20_desc">Ավարտեք 20 մարզում 80%+ ճշգրտությամբ</string>
+
+    <string name="achievement_time_1h_title">Ժամի մարտիկ</string>
+    <string name="achievement_time_1h_desc">Մարզվեք ընդհանուր 1 ժամ</string>
+    <string name="achievement_time_10h_title">Նվիրված</string>
+    <string name="achievement_time_10h_desc">Մարզվեք ընդհանուր 10 ժամ</string>
+    <string name="achievement_time_50h_title">Մարզիկ</string>
+    <string name="achievement_time_50h_desc">Մարզվեք ընդհանուր 50 ժամ</string>
+
+    <string name="achievement_session_50_title">Հզոր նստաշրջան</string>
+    <string name="achievement_session_50_desc">Կատարեք 50 կրկնություն մեկ մարզման ընթացքում</string>
+    <string name="achievement_session_100_title">Հարյուր մեկ անգամ</string>
+    <string name="achievement_session_100_desc">Կատարեք 100 կրկնություն մեկ մարզման ընթացքում</string>
+
+    <!-- Progress labels -->
+    <string name="achievement_unlocked">✓ Ապակողպված</string>
+
+    <!-- Backup -->
+    <string name="settings_backup">Պահուստավորում</string>
+    <string name="export_data">Արտահանել տվյալները</string>
+    <string name="import_data">Ներմուծել տվյալները</string>
+    <string name="export_backup">Արտահանել պահուստային պատճենը</string>
+    <string name="export_success">Պահուստային պատճենը ստեղծված է։ Կիսվեք կամ պահպանեք այն։</string>
+    <string name="export_failed">Արտահանման սխալ</string>
+    <string name="import_failed">Ներմուծման սխալ</string>
+    <string name="restore_title">Վերականգնե՞լ տվյալները</string>
+    <string name="restore_message">Սա կփոխարինի բոլոր ընթացիկ տվյալները պահուստային պատճենի տվյալներով։ Շարունակե՞լ։</string>
+    <string name="restore">Վերականգնել</string>
+    <string name="restore_success">Տվյալները հաջողությամբ վերականգնվեցին։</string>
+    <string name="restore_failed">Վերականգնման սխալ</string>
+
+    <!-- Auth -->
+    <string name="sign_in">Մուտք</string>
+    <string name="sign_up">Գրանցում</string>
+    <string name="email">Էլ․ հասցե</string>
+    <string name="password">Գաղտնաբառ</string>
+    <string name="forgot_password">Մոռացե՞լ եք գաղտնաբառը</string>
+    <string name="reset_password">Վերականգնել գաղտնաբառը</string>
+    <string name="password_reset_sent">Գաղտնաբառի վերականգնման նամակն ուղարկվեց։</string>
+    <string name="account_created">Հաշիվն հաջողությամբ ստեղծվեց։</string>
+    <string name="welcome_back">Բարի վերադարձ։</string>
+
+    <!-- Firebase -->
+    <string name="firebase_error">Firebase սխալ տեղի ունեցավ</string>
+    <string name="auth_error">Նույնականացման սխալ</string>
+    <string name="network_error">Ցանցի սխալ։ Ստուգեք կապը։</string>
+
+    <!-- Login -->
+    <string name="sign_in_with_google">Մուտք Google-ով</string>
+    <string name="sign_out">Դուրս գալ</string>
+    <string name="continue_without_account">Շարունակել առանց հաշվի</string>
+    <string name="signed_in_as">Մուտք եք գործել որպես՝</string>
+    <string name="not_signed_in">Մուտք չի գործվել</string>
+    <string name="last_sync">Վերջին համաժամեցում՝</string>
+    <string name="sync_now">Համաժամեցնել</string>
+    <string name="syncing">Համաժամեցում...</string>
+    <string name="sync_success">Հաջողությամբ համաժամեցվեց</string>
+    <string name="sync_failed">Համաժամեցման սխալ</string>
+    <string name="cloud_storage">Ամպային պահեստ՝</string>
+    <string name="backup_count">Պահուստային պատճեններ՝</string>
+
+    <!-- Account -->
+    <string name="account">Հաշիվ</string>
+    <string name="cloud_backup">Ամպային պահուստավորում</string>
+    <string name="sign_in_to_backup">Մուտք գործեք՝ տվյալները ամպում պահելու համար</string>
+    <string name="auto_sync_enabled">Ավտոհամաժամեցումը միացված է</string>
+
+    <!-- Password Change -->
+    <string name="change_password">Փոխել գաղտնաբառը</string>
+    <string name="current_password">Ներկայիս գաղտնաբառ</string>
+    <string name="new_password">Նոր գաղտնաբառ (նվազագույնը 6 նիշ)</string>
+    <string name="confirm_new_password">Հաստատեք նոր գաղտնաբառը</string>
+    <string name="password_changed">Գաղտնաբառը հաջողությամբ փոխվեց։</string>
+    <string name="passwords_dont_match">Գաղտնաբառերը չեն համընկնում</string>
+    <string name="password_must_be_different">Նոր գաղտնաբառը պետք է տարբերվի ներկայիսից</string>
+    <string name="current_password_incorrect">Սխալ ներկայիս գաղտնաբառ</string>
+
+    <!-- Sync Progress -->
+    <string name="preparing_backup">Պահուստային պատճենի պատրաստում...</string>
+    <string name="checking_cloud">Ամպային պատճենի ստուգում...</string>
+    <string name="downloading_backup">Պահուստային պատճենի ներբեռնում...</string>
+    <string name="restoring_data">Տվյալների վերականգնում...</string>
+    <string name="uploading_backup">Բեռնում դեպի ամպ...</string>
+    <string name="data_restored">Տվյալները վերականգնվեցին ամպից։</string>
+    <string name="backup_complete">Պահուստային պատճենը ստեղծվեց</string>
+
+    <!-- Result Screen -->
+    <string name="results_title">Արդյունքներ</string>
+    <string name="great_work">Հիանալի աշխատանք։</string>
+    <string name="result_reps">Կրկնություններ՝ %d</string>
+    <string name="result_time">Ժամանակ՝ %d վրկ</string>
+    <string name="result_accuracy">Ճշգրտություն՝ %d%%</string>
+    <string name="go_home">ԳԼԽԱՎՈՐ ԷՋ</string>
+    <string name="try_again">ՆՈՐ ՓՈՐՁ</string>
+
+    <!-- Sync Conflict -->
+    <string name="sync_conflict_title">⚠️ Համաժամեցման հակասություն</string>
+    <string name="sync_conflict_message">Ձեր տեղական և ամպային տվյալները տարբերվում են։ Ի՞նչ ցանկանում եք անել։</string>
+    <string name="download_from_cloud">⬇️ Ներբեռնել ամպից</string>
+    <string name="upload_to_cloud">⬆️ Բեռնել ամպ</string>
+    <string name="confirm_download_title">⚠️ Հաստատեք ներբեռնումը</string>
+    <string name="confirm_upload_title">⚠️ Հաստատեք բեռնումը</string>
+    <string name="sync_cancelled">Համաժամեցումը չեղարկվեց</string>
+
+    <!-- Email Verification -->
+    <string name="verify_email">Հաստատել Email</string>
+    <string name="email_not_verified">Email-ը հաստատված չէ</string>
+    <string name="email_verified">Email-ը հաստատված է</string>
+    <string name="resend_verification">Ուղարկել կրկին</string>
+    <string name="verification_sent">Նամակը ուղարկվեց</string>
+    <string name="open_email">Բացել փոստը</string>
+    <string name="check_email">Ստուգեք փոստը</string>
+    <string name="creating_account">Հաշվի ստեղծում</string>
+</resources>

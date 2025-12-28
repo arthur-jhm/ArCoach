@@ -1,0 +1,471 @@
+<resources>
+    <string name="app_name">ArCoach</string>
+    <string name="back">Назад</string>
+    <string name="help">Помощь</string>
+    <string name="yes">Да</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_guide">Инструкции</string>
+    <string name="nav_statistics">Статистика</string>
+    <string name="nav_profile">Профиль</string>
+
+    <!-- Menu -->
+    <string name="menu_achievements">Достижения</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_help">Помощь</string>
+    <string name="menu_about">О приложении</string>
+    <string name="menu_exit">Выход</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_tagline">Твой персональный тренер</string>
+    <string name="splash_version">Версия %s</string>
+
+    <!-- Exit Dialog -->
+    <string name="exit_title">Выход из приложения</string>
+    <string name="exit_message">Вы действительно хотите выйти?</string>
+
+    <!-- Home Fragment -->
+    <string name="streak">🔥 %d дней</string>
+    <string name="today_workouts">Сегодня: %d тренировок</string>
+    <string name="motivation_1">Начни тренироваться прямо сейчас!</string>
+    <string name="motivation_2">Сегодня отличный день для тренировки!</string>
+    <string name="motivation_3">Твоё тело скажет тебе спасибо!</string>
+    <string name="motivation_4">Каждая тренировка приближает к цели!</string>
+    <string name="motivation_5">Не откладывай на завтра!</string>
+    <string name="squats">ПРИСЕДАНИЯ</string>
+    <string name="pushups">ОТЖИМАНИЯ</string>
+    <string name="jumping_jacks">ПРЫЖКИ</string>
+    <string name="plank">ПЛАНКА</string>
+    <string name="subtitle_squats">Ноги · Ягодицы</string>
+    <string name="subtitle_pushups">Грудь · Трицепс</string>
+    <string name="subtitle_jumping_jacks">Всё тело · Кардио</string>
+    <string name="subtitle_plank">Кор · Стабильность</string>
+
+    <!-- Pre-Workout Screen -->
+    <string name="exercise_squats">ПРИСЕДАНИЯ</string>
+    <string name="exercise_pushups">ОТЖИМАНИЯ</string>
+    <string name="exercise_jumping_jacks">ПРЫЖКИ</string>
+    <string name="exercise_plank">ПЛАНКА</string>
+    <string name="how_to_prepare">Как подготовиться:</string>
+    <string name="start_workout">НАЧАТЬ ТРЕНИРОВКУ</string>
+    <string name="instructions_squats">📱 Поставь телефон СБОКУ на уровне пояса\n\n📏 Встань на расстоянии 1.5-2 метра\n\n👤 Убедись, что всё тело видно в кадре\n\n💡 Включи хорошее освещение</string>
+    <string name="instructions_pushups">📱 Поставь телефон СБОКУ\n\n📏 Встань на расстоянии 1.5-2 метра\n\n👤 Убедись, что всё тело видно в кадре\n\n💡 Включи хорошее освещение</string>
+    <string name="instructions_jumping_jacks">📱 Положите телефон на пол\n📏 Встаньте в 2-3м от камеры\n💡 Нужно хорошее освещение\n👕 Наденьте контрастную одежду\n\nПрыгайте разводя руки и ноги!</string>
+    <string name="instructions_plank">📱 Положите телефон сбоку\n📏 Расстояние до камеры 2м\n💡 Нужно хорошее освещение\n👕 Наденьте контрастную одежду\n\nДержите тело прямо!</string>
+
+    <!-- Workout Screen -->
+    <string name="reps_count">%d</string>
+    <string name="switch_camera">Переключить камеру</string>
+
+    <!-- Voice tips (spoken by TTS, no emoji) -->
+    <string name="voice_tip_squat_too_deep">Вы приседаете слишком глубоко. Контролируйте глубину приседания.</string>
+    <string name="voice_tip_plank_hips_high">Бёдра слишком высоко. Опустите их, чтобы тело было прямым.</string>
+    <string name="voice_tip_plank_hips_low">Бёдра провисают. Поднимите их и напрягите мышцы кора.</string>
+    <string name="voice_tip_plank_not_in_position">Встаньте в планку. Держите тело на руках или предплечьях.</string>
+    <string name="voice_tip_pushup_too_deep">Вы опускаетесь слишком низко. Не опускайте грудь до самого пола.</string>
+    <string name="voice_tip_pushup_body_sagging">Тело не держит прямую линию. Напрягите кор и поднимите бёдра.</string>
+
+    <!-- Bottom sheet exercise detail -->
+    <string name="sheet_reps_chart_label">Повторения по сессиям (последние 10)</string>
+    <string name="sheet_plank_chart_label">Длительность по сессиям, сек (последние 10)</string>
+    <string name="sheet_accuracy_chart_label">Точность % по сессиям (последние 10)</string>
+    <string name="stat_total_seconds">Всего: %d сек</string>
+    <string name="stat_best_seconds">Рекорд: %d сек</string>
+
+    <!-- Voice motivations (every 5 reps) -->
+    <string name="voice_motivation_1">Отличная работа!</string>
+    <string name="voice_motivation_2">Продолжай!</string>
+    <string name="voice_motivation_3">Ты молодец!</string>
+    <string name="voice_motivation_4">Превосходно!</string>
+
+    <!-- Guide Screen -->
+    <string name="guide_title">📖 Инструкции</string>
+    <string name="guide_start_title">🚀 Как начать</string>
+    <string name="guide_start_text">1. Выбери упражнение на главном экране\n\n2. Подготовь место для тренировки\n\n3. Установи телефон по инструкции\n\n4. Начни тренировку!</string>
+    <string name="guide_camera_title">📱 Установка телефона</string>
+    <string name="guide_camera_text">• Поставь телефон СБОКУ от себя\n\n• Камера должна быть на уровне пояса\n\n• Расстояние: 1.5–2 метра\n\n• Всё тело должно быть в кадре\n\n• Используй подставку или стопку книг</string>
+    <string name="guide_lighting_title">💡 Освещение</string>
+    <string name="guide_lighting_text">• Тренируйся при хорошем освещении\n\n• Свет должен быть спереди, а не сзади\n\n• Избегай резких теней\n\n• Лучше тренироваться днём у окна</string>
+    <string name="guide_clothes_title">👕 Что надеть</string>
+    <string name="guide_clothes_text">• Облегающая спортивная одежда\n\n• Избегай слишком свободной одежды\n\n• Камера должна видеть суставы\n\n• Контрастные цвета помогают лучше</string>
+    <string name="guide_tips_title">💪 Советы для тренировки</string>
+    <string name="guide_tips_text">• Разминайся перед тренировкой\n\n• Слушай голосовые подсказки\n\n• Следи за техникой, а не за скоростью\n\n• Начни с малого количества повторений\n\n• Постепенно увеличивай нагрузку\n\n• Тренируйся регулярно</string>
+
+    <!-- Statistics Screen -->
+    <string name="statistics_title">📊 Статистика</string>
+    <string name="general_stats">Общая статистика</string>
+    <string name="total_workouts_label">Тренировок</string>
+    <string name="total_reps_label">Повторений</string>
+    <string name="total_time_label">Время</string>
+    <string name="streak_label">Серия 🔥</string>
+    <string name="total_workouts_value">%d</string>
+    <string name="total_reps_value">%d</string>
+    <string name="total_time_value">%d мин</string>
+    <string name="streak_value">%d дней</string>
+    <string name="graphs_placeholder">Графики появятся здесь</string>
+
+    <!-- Charts -->
+    <string name="reps_last_7_days">Повторения за 7 дней</string>
+    <string name="accuracy_trend">Тренд точности</string>
+    <string name="exercise_distribution">Распределение упражнений</string>
+    <string name="exercise_details">Детали упражнений</string>
+    <string name="total_reps_detail">Всего: %d повторений</string>
+    <string name="best_reps">Лучший: %d повторений</string>
+    <string name="avg_accuracy">Средняя точность: %d%%</string>
+    <string name="no_data_available">Нет данных</string>
+
+    <string name="exercise_squats_label">🏋️ Приседания</string>
+    <string name="exercise_pushups_label">💪 Отжимания</string>
+    <string name="exercise_jumping_jacks_label">🦘 Прыжки</string>
+    <string name="exercise_plank_label">🧘 Планка</string>
+    <string name="stat_sessions">Сессий: %d</string>
+    <string name="stat_total_reps">Всего: %d повт.</string>
+    <string name="stat_best_reps">Рекорд: %d повт.</string>
+    <string name="stat_avg_accuracy">Ср. точность: %d%%</string>
+    <string name="no_exercise_data">Тренировок пока нет. Начните тренироваться!</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">👤 Профиль</string>
+    <string name="user_name">Спортсмен</string>
+    <string name="user_level">Уровень %d</string>
+    <string name="user_rank_beginner">Новичок</string>
+    <string name="achievements_label">🏆 Достижения</string>
+    <string name="achievements_unlocked">Разблокировано:</string>
+    <string name="achievements_count">%d/%d</string>
+    <string name="edit_profile">РЕДАКТИРОВАТЬ ПРОФИЛЬ</string>
+
+    <!-- Profile - Personal Info -->
+    <string name="personal_info">Личные данные</string>
+    <string name="age">Возраст</string>
+    <string name="height">Рост</string>
+    <string name="weight">Вес</string>
+    <string name="bmi">ИМТ</string>
+    <string name="birth_date">Дата рождения</string>
+    <string name="select_date">Выбрать дату</string>
+    <string name="years_old">лет</string>
+    <string name="cm">см</string>
+    <string name="kg">кг</string>
+    <string name="height_hint">170</string>
+    <string name="weight_hint">70.0</string>
+
+    <!-- Edit Profile -->
+    <string name="current_avatar">Текущий аватар</string>
+    <string name="your_name">Ваше имя</string>
+    <string name="enter_your_name">Введите ваше имя</string>
+    <string name="choose_avatar">Выберите аватар</string>
+    <string name="save">СОХРАНИТЬ</string>
+    <string name="profile_saved">Профиль сохранён!</string>
+    <string name="name_cannot_be_empty">Имя не может быть пустым</string>
+
+    <!-- Profile ranks -->
+    <string name="user_rank_intermediate">Средний</string>
+    <string name="user_rank_advanced">Продвинутый</string>
+    <string name="user_rank_expert">Эксперт</string>
+
+    <!-- BMI Categories -->
+    <string name="bmi_underweight">Недостаточный вес</string>
+    <string name="bmi_normal">Нормальный</string>
+    <string name="bmi_overweight">Избыточный вес</string>
+    <string name="bmi_obese">Ожирение</string>
+
+    <!-- Validation errors -->
+4    <string name="invalid_height">Рост должен быть от 50 до 250 см</string>
+    <string name="invalid_weight">Вес должен быть от 20 до 300 кг</string>
+    <string name="invalid_number">Неверное число</string>
+
+    <!-- About Screen -->
+    <string name="about_title">О приложении</string>
+    <string name="version">Версия %s</string>
+    <string name="about_description">ArCoach - это персональный тренер в твоём кармане. Приложение использует искусственный интеллект для анализа техники выполнения упражнений в реальном времени.</string>
+    <string name="developed_for">Разработано для Samsung Campus</string>
+    <string name="copyright">© 2025 ArCoach</string>
+
+    <!-- Help Screen -->
+    <string name="help_title">❓ Часто задаваемые вопросы</string>
+    <string name="help_q1">Как установить телефон?</string>
+    <string name="help_a1">Поставь телефон сбоку на уровне пояса. Расстояние 1.5–2 метра. Всё тело должно быть в кадре.</string>
+    <string name="help_q2">Приложение не считает повторения</string>
+    <string name="help_a2">Проверь освещение и убедись, что всё тело видно в кадре. Выполняй упражнение с полной амплитудой.</string>
+    <string name="help_q3">Нужен ли интернет?</string>
+    <string name="help_a3">Нет! Приложение работает полностью офлайн. Вся обработка происходит на твоём устройстве.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_workout">Настройки тренировки</string>
+    <string name="settings_notifications">Уведомления</string>
+    <string name="settings_voice_prompts">Голосовые подсказки</string>
+    <string name="settings_volume">Громкость</string>
+    <string name="settings_vibration">Вибрация</string>
+    <string name="settings_enable_notifications">Включить напоминания</string>
+    <string name="settings_reminder_time">Время напоминания</string>
+    <string name="settings_select_time">Выберите время</string>
+    <string name="settings_danger_zone">Опасная зона</string>
+    <string name="settings_clear_all_data">Очистить все данные</string>
+
+    <!-- Permissions -->
+    <string name="permission_granted">Разрешение предоставлено</string>
+    <string name="permission_denied">Разрешение отклонено. Включите в Настройках для использования напоминаний.</string>
+    <string name="exact_alarm_title">Требуется разрешение на точные будильники</string>
+    <string name="exact_alarm_message">Для отправки напоминаний в точное время, пожалуйста включите разрешение "Будильники и напоминания" в Настройках.</string>
+    <string name="exact_alarm_permission_required">Требуется разрешение на точные будильники</string>
+    <string name="open_settings">Открыть Настройки</string>
+    <string name="test_notification">Тест уведомления</string>
+    <!-- Notification permission -->
+    <string name="notification_permission_title">Требуется разрешение на уведомления</string>
+    <string name="notification_permission_message">ArCoach нужно разрешение для отправки напоминаний о тренировках. Пожалуйста, предоставьте разрешение на уведомления.</string>
+    <string name="grant_permission">Предоставить разрешение</string>
+    <!-- Manual permission -->
+    <string name="enable_manually_title">Включить уведомления вручную</string>
+    <string name="enable_manually_message">Перейдите в Настройки -> Приложения -> ArCoach -> Уведомления и включите все уведомления.</string>
+    <string name="request_again">Запросить снова</string>
+
+    <!-- Toasts -->
+    <string name="voice_enabled">Голосовые подсказки включены</string>
+    <string name="voice_disabled">Голосовые подсказки отключены</string>
+    <string name="vibration_enabled">Вибрация включена</string>
+    <string name="vibration_disabled">Вибрация отключена</string>
+    <string name="notifications_enabled">Напоминания включены</string>
+    <string name="notifications_disabled">Напоминания отключены</string>
+    <string name="reminder_set">Ежедневное напоминание установлено на %s</string>
+    <string name="data_cleared">Все данные успешно удалены</string>
+
+    <!-- Dialogs -->
+    <string name="clear_data_title">Очистить все данные?</string>
+    <string name="clear_data_message">Это удалит все ваши тренировки, статистику и достижения. Это действие нельзя отменить!</string>
+    <string name="yes_delete">Да, удалить всё</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Время тренироваться! 💪</string>
+    <string name="notification_text">Продолжай серию! Начни быструю тренировку сейчас.</string>
+    <string name="notification_channel_name">Напоминания о тренировках</string>
+    <string name="notification_channel_description">Ежедневные напоминания о тренировках</string>
+
+    <!-- Achievements Screen -->
+    <string name="achievements_title0">Достижения</string>
+    <string name="achievements_title">🏆 Твои достижения</string>
+    <string name="achievements_placeholder">Достижения появятся здесь после первой тренировки!</string>
+    <string name="achievements_unlocked_summary">Разблокировано: %d / %d</string>
+
+    <!-- Achievement category headers -->
+    <string name="category_first_steps">Первые шаги</string>
+    <string name="category_workouts">Тренировки</string>
+    <string name="category_reps">Повторения</string>
+    <string name="category_streak">Серия дней</string>
+    <string name="category_squats">Приседания</string>
+    <string name="category_pushups">Отжимания</string>
+    <string name="category_jumping_jacks">Прыжки</string>
+    <string name="category_plank">Планка</string>
+    <string name="category_accuracy">Точность</string>
+    <string name="category_time">Время тренировок</string>
+    <string name="category_session">За одну тренировку</string>
+
+    <!-- Achievement titles and descriptions -->
+    <string name="achievement_first_workout_title">Первые шаги</string>
+    <string name="achievement_first_workout_desc">Завершите первую тренировку</string>
+
+    <string name="achievement_first_10_reps_title">Начало пути</string>
+    <string name="achievement_first_10_reps_desc">Выполните 10 повторений всего</string>
+
+    <string name="achievement_10_workouts_title">Целеустремлённый</string>
+    <string name="achievement_10_workouts_desc">Завершите 10 тренировок</string>
+
+    <string name="achievement_50_workouts_title">Преданный</string>
+    <string name="achievement_50_workouts_desc">Завершите 50 тренировок</string>
+
+    <string name="achievement_100_workouts_title">Сотня</string>
+    <string name="achievement_100_workouts_desc">Завершите 100 тренировок</string>
+
+    <string name="achievement_100_reps_title">Бронза</string>
+    <string name="achievement_100_reps_desc">Выполните 100 повторений всего</string>
+
+    <string name="achievement_500_reps_title">Серебро</string>
+    <string name="achievement_500_reps_desc">Выполните 500 повторений всего</string>
+
+    <string name="achievement_1000_reps_title">Золото</string>
+    <string name="achievement_1000_reps_desc">Выполните 1000 повторений всего</string>
+
+    <string name="achievement_5000_reps_title">Бриллиант</string>
+    <string name="achievement_5000_reps_desc">Выполните 5000 повторений всего</string>
+
+    <string name="achievement_streak_3_title">Горячая серия</string>
+    <string name="achievement_streak_3_desc">Тренируйтесь 3 дня подряд</string>
+
+    <string name="achievement_streak_7_title">Воин недели</string>
+    <string name="achievement_streak_7_desc">Тренируйтесь 7 дней подряд</string>
+
+    <string name="achievement_streak_30_title">Мастер месяца</string>
+    <string name="achievement_streak_30_desc">Тренируйтесь 30 дней подряд</string>
+
+    <string name="achievement_streak_100_title">Неудержимый</string>
+    <string name="achievement_streak_100_desc">Тренируйтесь 100 дней подряд</string>
+
+    <string name="achievement_25_workouts_title">В движении</string>
+    <string name="achievement_25_workouts_desc">Завершите 25 тренировок</string>
+    <string name="achievement_200_workouts_title">Элита</string>
+    <string name="achievement_200_workouts_desc">Завершите 200 тренировок</string>
+    <string name="achievement_500_workouts_title">Легенда</string>
+    <string name="achievement_500_workouts_desc">Завершите 500 тренировок</string>
+
+    <string name="achievement_250_reps_title">Восходящая звезда</string>
+    <string name="achievement_250_reps_desc">Выполните 250 повторений всего</string>
+    <string name="achievement_2500_reps_title">Чемпион</string>
+    <string name="achievement_2500_reps_desc">Выполните 2500 повторений всего</string>
+    <string name="achievement_10000_reps_title">Легенда</string>
+    <string name="achievement_10000_reps_desc">Выполните 10000 повторений всего</string>
+
+    <string name="achievement_streak_14_title">Воин двух недель</string>
+    <string name="achievement_streak_14_desc">Тренируйтесь 14 дней подряд</string>
+    <string name="achievement_streak_60_title">Железная воля</string>
+    <string name="achievement_streak_60_desc">Тренируйтесь 60 дней подряд</string>
+    <string name="achievement_streak_365_title">Весь год</string>
+    <string name="achievement_streak_365_desc">Тренируйтесь 365 дней подряд</string>
+
+    <string name="achievement_squats_50_title">Новичок в приседаниях</string>
+    <string name="achievement_squats_50_desc">Выполните 50 приседаний всего</string>
+    <string name="achievement_squats_500_title">Про в приседаниях</string>
+    <string name="achievement_squats_500_desc">Выполните 500 приседаний всего</string>
+    <string name="achievement_squats_2000_title">Мастер приседаний</string>
+    <string name="achievement_squats_2000_desc">Выполните 2000 приседаний всего</string>
+
+    <string name="achievement_pushups_50_title">Новичок в отжиманиях</string>
+    <string name="achievement_pushups_50_desc">Выполните 50 отжиманий всего</string>
+    <string name="achievement_pushups_500_title">Про в отжиманиях</string>
+    <string name="achievement_pushups_500_desc">Выполните 500 отжиманий всего</string>
+    <string name="achievement_pushups_2000_title">Мастер отжиманий</string>
+    <string name="achievement_pushups_2000_desc">Выполните 2000 отжиманий всего</string>
+
+    <string name="achievement_jacks_100_title">Новичок в прыжках</string>
+    <string name="achievement_jacks_100_desc">Выполните 100 прыжков всего</string>
+    <string name="achievement_jacks_1000_title">Про в прыжках</string>
+    <string name="achievement_jacks_1000_desc">Выполните 1000 прыжков всего</string>
+    <string name="achievement_jacks_5000_title">Мастер прыжков</string>
+    <string name="achievement_jacks_5000_desc">Выполните 5000 прыжков всего</string>
+
+    <string name="achievement_plank_60_title">Новичок планки</string>
+    <string name="achievement_plank_60_desc">Удержите планку суммарно 1 минуту</string>
+    <string name="achievement_plank_600_title">Про в планке</string>
+    <string name="achievement_plank_600_desc">Удержите планку суммарно 10 минут</string>
+    <string name="achievement_plank_3600_title">Мастер планки</string>
+    <string name="achievement_plank_3600_desc">Удержите планку суммарно 1 час</string>
+
+    <string name="achievement_accuracy_1_title">Перфекционист</string>
+    <string name="achievement_accuracy_1_desc">Завершите 1 тренировку с точностью 80%+</string>
+    <string name="achievement_accuracy_5_title">Эксперт формы</string>
+    <string name="achievement_accuracy_5_desc">Завершите 5 тренировок с точностью 80%+</string>
+    <string name="achievement_accuracy_20_title">Безупречный</string>
+    <string name="achievement_accuracy_20_desc">Завершите 20 тренировок с точностью 80%+</string>
+
+    <string name="achievement_time_1h_title">Воин часа</string>
+    <string name="achievement_time_1h_desc">Тренируйтесь суммарно 1 час</string>
+    <string name="achievement_time_10h_title">Преданный</string>
+    <string name="achievement_time_10h_desc">Тренируйтесь суммарно 10 часов</string>
+    <string name="achievement_time_50h_title">Атлет</string>
+    <string name="achievement_time_50h_desc">Тренируйтесь суммарно 50 часов</string>
+
+    <string name="achievement_session_50_title">Мощная сессия</string>
+    <string name="achievement_session_50_desc">Выполните 50 повторений за одну тренировку</string>
+    <string name="achievement_session_100_title">Сотня за раз</string>
+    <string name="achievement_session_100_desc">Выполните 100 повторений за одну тренировку</string>
+
+    <!-- Progress labels -->
+    <string name="achievement_unlocked">✓ Разблокировано</string>
+
+    <!-- Backup -->
+    <string name="settings_backup">Резервное копирование</string>
+    <string name="export_data">Экспорт данных</string>
+    <string name="import_data">Импорт данных</string>
+    <string name="export_backup">Экспорт резервной копии</string>
+    <string name="export_success">Резервная копия создана! Поделитесь или сохраните её.</string>
+    <string name="export_failed">Ошибка экспорта</string>
+    <string name="import_failed">Ошибка импорта</string>
+    <string name="restore_title">Восстановить данные?</string>
+    <string name="restore_message">Это заменит все текущие данные данными из резервной копии. Продолжить?</string>
+    <string name="restore">Восстановить</string>
+    <string name="restore_success">Данные успешно восстановлены!</string>
+    <string name="restore_failed">Ошибка восстановления</string>
+
+    <!-- Auth -->
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="reset_password">Сбросить пароль</string>
+    <string name="password_reset_sent">Письмо для сброса пароля отправлено!</string>
+    <string name="account_created">Аккаунт успешно создан!</string>
+    <string name="welcome_back">С возвращением!</string>
+
+    <!-- Firebase -->
+    <string name="firebase_error">Произошла ошибка Firebase</string>
+    <string name="auth_error">Ошибка аутентификации</string>
+    <string name="network_error">Ошибка сети. Проверьте подключение.</string>
+
+    <!-- Login -->
+    <string name="sign_in_with_google">Войти через Google</string>
+    <string name="sign_out">Выйти</string>
+    <string name="continue_without_account">Продолжить без аккаунта</string>
+    <string name="signed_in_as">Вы вошли как:</string>
+    <string name="not_signed_in">Не выполнен вход</string>
+    <string name="last_sync">Последняя синхронизация:</string>
+    <string name="sync_now">Синхронизировать</string>
+    <string name="syncing">Синхронизация...</string>
+    <string name="sync_success">Успешно синхронизировано</string>
+    <string name="sync_failed">Ошибка синхронизации</string>
+    <string name="cloud_storage">Облачное хранилище:</string>
+    <string name="backup_count">Резервных копий:</string>
+
+    <!-- Account -->
+    <string name="account">Аккаунт</string>
+    <string name="cloud_backup">Облачный бэкап</string>
+    <string name="sign_in_to_backup">Войдите чтобы сохранить данные в облаке</string>
+    <string name="auto_sync_enabled">Автосинхронизация включена</string>
+
+    <!-- Password Change -->
+    <string name="change_password">Изменить пароль</string>
+    <string name="current_password">Текущий пароль</string>
+    <string name="new_password">Новый пароль (минимум 6 символов)</string>
+    <string name="confirm_new_password">Подтвердите новый пароль</string>
+    <string name="password_changed">Пароль успешно изменён!</string>
+    <string name="passwords_dont_match">Пароли не совпадают</string>
+    <string name="password_must_be_different">Новый пароль должен отличаться от текущего</string>
+    <string name="current_password_incorrect">Неверный текущий пароль</string>
+
+    <!-- Sync Progress -->
+    <string name="preparing_backup">Подготовка резервной копии...</string>
+    <string name="checking_cloud">Проверка облачной копии...</string>
+    <string name="downloading_backup">Загрузка резервной копии...</string>
+    <string name="restoring_data">Восстановление данных...</string>
+    <string name="uploading_backup">Загрузка в облако...</string>
+    <string name="data_restored">Данные восстановлены из облака!</string>
+    <string name="backup_complete">Резервная копия создана</string>
+
+    <!-- Result Screen -->
+    <string name="results_title">Результаты</string>
+    <string name="great_work">Отличная работа!</string>
+    <string name="result_reps">Повторений: %d</string>
+    <string name="result_time">Время: %d сек</string>
+    <string name="result_accuracy">Точность: %d%%</string>
+    <string name="go_home">НА ГЛАВНУЮ</string>
+    <string name="try_again">ЕЩЁ РАЗ</string>
+
+    <!-- Sync Conflict -->
+    <string name="sync_conflict_title">⚠️ Конфликт синхронизации</string>
+    <string name="sync_conflict_message">Ваши локальные данные и облачные данные отличаются. Что вы хотите сделать?</string>
+    <string name="download_from_cloud">⬇️ Скачать из облака</string>
+    <string name="upload_to_cloud">⬆️ Загрузить в облако</string>
+    <string name="confirm_download_title">⚠️ Подтвердите скачивание</string>
+    <string name="confirm_upload_title">⚠️ Подтвердите загрузку</string>
+    <string name="sync_cancelled">Синхронизация отменена</string>
+
+    <!-- Email Verification -->
+    <string name="verify_email">Подтвердить Email</string>
+    <string name="email_not_verified">Email не подтверждён</string>
+    <string name="email_verified">Email подтверждён</string>
+    <string name="resend_verification">Отправить снова</string>
+    <string name="verification_sent">Письмо отправлено</string>
+    <string name="open_email">Открыть почту</string>
+    <string name="check_email">Проверьте почту</string>
+    <string name="creating_account">Создание аккаунта</string>
+</resources>

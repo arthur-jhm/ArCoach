@@ -1,0 +1,471 @@
+<resources>
+    <string name="app_name">ArCoach</string>
+    <string name="back">Back</string>
+    <string name="help">Help</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_guide">Guide</string>
+    <string name="nav_statistics">Statistics</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Menu -->
+    <string name="menu_achievements">Achievements</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_about">About</string>
+    <string name="menu_exit">Exit</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_tagline">Your personal trainer</string>
+    <string name="splash_version">Version %s</string>
+
+    <!-- Exit Dialog -->
+    <string name="exit_title">Exit app</string>
+    <string name="exit_message">Do you really want to exit?</string>
+
+    <!-- Home Fragment -->
+    <string name="streak">🔥 %d days</string>
+    <string name="today_workouts">Today: %d workouts</string>
+    <string name="motivation_1">Start training right now!</string>
+    <string name="motivation_2">Today is a great day to work out!</string>
+    <string name="motivation_3">Your body will thank you!</string>
+    <string name="motivation_4">Every workout brings you closer to your goal!</string>
+    <string name="motivation_5">Don\'t put off until tomorrow!</string>
+    <string name="squats">SQUATS</string>
+    <string name="pushups">PUSH-UPS</string>
+    <string name="jumping_jacks">JUMPING JACKS</string>
+    <string name="plank">PLANK</string>
+    <string name="subtitle_squats">Legs · Glutes</string>
+    <string name="subtitle_pushups">Chest · Triceps</string>
+    <string name="subtitle_jumping_jacks">Full body · Cardio</string>
+    <string name="subtitle_plank">Core · Stability</string>
+
+    <!-- Pre-Workout Screen -->
+    <string name="exercise_squats">SQUATS</string>
+    <string name="exercise_pushups">PUSH-UPS</string>
+    <string name="exercise_jumping_jacks">JUMPING JACKS</string>
+    <string name="exercise_plank">PLANK</string>
+    <string name="how_to_prepare">How to prepare:</string>
+    <string name="start_workout">START WORKOUT</string>
+    <string name="instructions_squats">📱 Place your phone SIDEWAYS at waist height\n📏 Stand at a distance of 1.5-2 meters\n👤 Make sure your whole body is visible in the frame\n💡 Turn on good lighting\n👕 Wear fitted clothes (avoid baggy)\n\n🏋️ Tips for squats:\n - Feet shoulder-width apart\n - Keep your back straight\n - Knees should not go past your toes\n - Lower until thighs are parallel to the floor</string>
+    <string name="instructions_pushups">📱 Place your phone SIDEWAYS on the floor\n📏 Position the camera 1.5-2 meters to your side\n👤 Make sure your whole body is visible in the frame\n💡 Turn on good lighting\n👕 Wear fitted clothes (avoid baggy)\n\n💪 Tips for push-ups:\n - Hands slightly wider than shoulders\n - Keep your body in a straight line\n - Lower your chest to the floor\n - Do not let hips sag or rise</string>
+    <string name="instructions_jumping_jacks">📱 Place your phone on the floor facing you\n📏 Stand at a distance of 2-3 meters\n👤 Make sure your whole body is visible in the frame\n💡 Turn on good lighting\n👕 Wear fitted clothes (avoid baggy)\n\n⭐ Tips for jumping jacks:\n - Start with feet together, arms at sides\n - Jump and spread legs shoulder-width\n - Raise arms above your head simultaneously\n - Keep a steady, consistent rhythm</string>
+    <string name="instructions_plank">📱 Place your phone SIDEWAYS on the floor\n📏 Position the camera 2 meters to your side\n👤 Make sure your whole body is visible in the frame\n💡 Turn on good lighting\n👕 Wear fitted clothes (avoid baggy)\n\n🧘 Tips for plank:\n - Elbows directly under shoulders\n - Body must form a straight line\n - Engage your core and glutes\n - Do not hold your breath - breathe steadily</string>
+
+    <!-- Workout Screen -->
+    <string name="reps_count">%d</string>
+    <string name="switch_camera">Switch Camera</string>
+
+    <!-- Voice tips (spoken by TTS, no emoji) -->
+    <string name="voice_tip_squat_too_deep">You are going too deep. Control your squat depth.</string>
+    <string name="voice_tip_plank_hips_high">Your hips are too high. Lower them down to keep your body in a straight line.</string>
+    <string name="voice_tip_plank_hips_low">Your hips are sagging. Lift them up and tighten your core.</string>
+    <string name="voice_tip_plank_not_in_position">Get into plank position. Support your body on your hands or forearms.</string>
+    <string name="voice_tip_pushup_too_deep">You are going too deep. Do not lower your chest all the way to the floor.</string>
+    <string name="voice_tip_pushup_body_sagging">Your body is not in a straight line. Tighten your core and keep your hips up.</string>
+
+    <!-- Bottom sheet exercise detail -->
+    <string name="sheet_reps_chart_label">Reps per session (last 10)</string>
+    <string name="sheet_plank_chart_label">Duration per session, sec (last 10)</string>
+    <string name="sheet_accuracy_chart_label">Accuracy % per session (last 10)</string>
+    <string name="stat_total_seconds">Total: %d sec</string>
+    <string name="stat_best_seconds">Best: %d sec</string>
+
+    <!-- Voice motivations (every 5 reps) -->
+    <string name="voice_motivation_1">Great job!</string>
+    <string name="voice_motivation_2">Keep going!</string>
+    <string name="voice_motivation_3">You\'re doing great!</string>
+    <string name="voice_motivation_4">Excellent!</string>
+
+    <!-- Guide Screen -->
+    <string name="guide_title">📖 Guide</string>
+    <string name="guide_start_title">🚀 How to start</string>
+    <string name="guide_start_text">1. Choose an exercise on the main screen\n\n2. Prepare a place for training\n\n3. Install your phone according to the instructions\n\n4. Start training!</string>
+    <string name="guide_camera_title">📱 Phone setup</string>
+    <string name="guide_camera_text">• Place your phone SIDEWAYS (landscape mode)\n\n• Camera should be at waist level\n\n• Distance: 1.5-2 meters\n\n• Your whole body should be in the frame\n\n• Use a stand, tripod or stack of books</string>
+    <string name="guide_lighting_title">💡 Lighting</string>
+    <string name="guide_lighting_text">• Train in good lighting\n\n• Light should be in front, not behind\n\n• Avoid harsh shadows\n\n• Best to train during the day by the window</string>
+    <string name="guide_clothes_title">👕 What to wear</string>
+    <string name="guide_clothes_text">• Wear tight-fitting sportswear\n\n• Avoid loose or baggy clothing\n\n• Joints should be clearly visible\n\n• Contrasting colors improve tracking accuracy</string>
+    <string name="guide_tips_title">💪 Training tips</string>
+    <string name="guide_tips_text">• Warm up before training\n\n• Listen to voice prompts\n\n• Focus on technique, not speed\n\n• Start with a small number of reps\n\n• Gradually increase the load\n\n• Rest between sets\n\n• Train regularly</string>
+
+    <!-- Statistics Screen -->
+    <string name="statistics_title">📊 Statistics</string>
+    <string name="general_stats">General Statistics</string>
+    <string name="total_workouts_label">Workouts</string>
+    <string name="total_reps_label">Reps</string>
+    <string name="total_time_label">Time</string>
+    <string name="streak_label">Streak 🔥</string>
+    <string name="total_workouts_value">%d</string>
+    <string name="total_reps_value">%d</string>
+    <string name="total_time_value">%d min</string>
+    <string name="streak_value">%d days</string>
+    <string name="graphs_placeholder">Graphs will appear here</string>
+
+    <!-- Charts -->
+    <string name="reps_last_7_days">Reps Last 7 Days</string>
+    <string name="accuracy_trend">Accuracy Trend</string>
+    <string name="exercise_distribution">Exercise Distribution</string>
+    <string name="exercise_details">Exercise Details</string>
+    <string name="total_reps_detail">Total: %d reps</string>
+    <string name="best_reps">Best: %d reps</string>
+    <string name="avg_accuracy">Avg accuracy: %d%%</string>
+    <string name="no_data_available">No data available</string>
+
+    <string name="exercise_squats_label">🏋️ Squats</string>
+    <string name="exercise_pushups_label">💪 Push-ups</string>
+    <string name="exercise_jumping_jacks_label">🦘 Jumping Jacks</string>
+    <string name="exercise_plank_label">🧘 Plank</string>
+    <string name="stat_sessions">Sessions: %d</string>
+    <string name="stat_total_reps">Total: %d reps</string>
+    <string name="stat_best_reps">Best: %d reps</string>
+    <string name="stat_avg_accuracy">Avg accuracy: %d%%</string>
+    <string name="no_exercise_data">No workouts yet. Start training to see your stats!</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_title">👤 Profile</string>
+    <string name="user_name">Athlete</string>
+    <string name="user_level">Level %d</string>
+    <string name="user_rank_beginner">Beginner</string>
+    <string name="achievements_label">🏆 Achievements</string>
+    <string name="achievements_unlocked">Unlocked:</string>
+    <string name="achievements_count">%d/%d</string>
+    <string name="edit_profile">EDIT PROFILE</string>
+
+    <!-- Profile - Personal Info -->
+    <string name="personal_info">Personal Information</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="bmi">BMI</string>
+    <string name="birth_date">Date of Birth</string>
+    <string name="select_date">Select Date</string>
+    <string name="years_old">years</string>
+    <string name="cm">cm</string>
+    <string name="kg">kg</string>
+    <string name="height_hint">170</string>
+    <string name="weight_hint">70.0</string>
+
+    <!-- Edit Profile -->
+    <string name="current_avatar">Current Avatar</string>
+    <string name="your_name">Your Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="choose_avatar">Choose Avatar</string>
+    <string name="save">SAVE</string>
+    <string name="profile_saved">Profile saved!</string>
+    <string name="name_cannot_be_empty">Name cannot be empty</string>
+
+    <!-- Profile ranks -->
+    <string name="user_rank_intermediate">Intermediate</string>
+    <string name="user_rank_advanced">Advanced</string>
+    <string name="user_rank_expert">Expert</string>
+
+    <!-- BMI Categories -->
+    <string name="bmi_underweight">Underweight</string>
+    <string name="bmi_normal">Normal</string>
+    <string name="bmi_overweight">Overweight</string>
+    <string name="bmi_obese">Obese</string>
+
+    <!-- Validation errors -->
+    <string name="invalid_height">Height must be between 50-250 cm</string>
+    <string name="invalid_weight">Weight must be between 20-300 kg</string>
+    <string name="invalid_number">Invalid number</string>
+
+    <!-- About Screen -->
+    <string name="about_title">About</string>
+    <string name="version">Version %s</string>
+    <string name="about_description">ArCoach is a personal trainer in your pocket. The app uses artificial intelligence to analyze exercise technique in real time.</string>
+    <string name="developed_for">Developed by Arthur Jhangiryan</string>
+    <string name="copyright">© 2025 ArCoach</string>
+
+    <!-- Help Screen -->
+    <string name="help_title">❓ FAQ</string>
+    <string name="help_q1">How to install the phone?</string>
+    <string name="help_a1">Place your phone sideways at waist level. Distance 1.5-2 meters. Your whole body should be in the frame.</string>
+    <string name="help_q2">App doesn\'t count reps</string>
+    <string name="help_a2">Check the lighting and make sure your whole body is visible in the frame. Perform the exercise with full range of motion.</string>
+    <string name="help_q3">Is internet required?</string>
+    <string name="help_a3">No! The app works completely offline. All processing happens on your device.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_workout">Workout Settings</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_voice_prompts">Voice prompts</string>
+    <string name="settings_volume">Volume</string>
+    <string name="settings_vibration">Vibration</string>
+    <string name="settings_enable_notifications">Enable reminders</string>
+    <string name="settings_reminder_time">Reminder time</string>
+    <string name="settings_select_time">Select time</string>
+    <string name="settings_danger_zone">Danger Zone</string>
+    <string name="settings_clear_all_data">Clear all data</string>
+
+    <!-- Permissions -->
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_denied">Permission denied. Enable in Settings to use reminders.</string>
+    <string name="exact_alarm_title">Exact Alarm Permission Required</string>
+    <string name="exact_alarm_message">To send reminders at exact times, please enable "Alarms &amp; reminders" permission in Settings.</string>
+    <string name="exact_alarm_permission_required">Exact alarm permission required for precise reminders</string>
+    <string name="open_settings">Open Settings</string>
+    <string name="test_notification">Test Notification</string>
+    <!-- Notification permission -->
+    <string name="notification_permission_title">Notification Permission Required</string>
+    <string name="notification_permission_message">ArCoach needs permission to send you workout reminders. Please grant the notification permission.</string>
+    <string name="grant_permission">Grant Permission</string>
+    <!-- Manual permission -->
+    <string name="enable_manually_title">Enable Notifications Manually</string>
+    <string name="enable_manually_message">Go to Settings -> Apps -> ArCoach -> Notifications and enable all notifications.</string>
+    <string name="request_again">Request Again</string>
+
+    <!-- Toasts -->
+    <string name="voice_enabled">Voice prompts enabled</string>
+    <string name="voice_disabled">Voice prompts disabled</string>
+    <string name="vibration_enabled">Vibration enabled</string>
+    <string name="vibration_disabled">Vibration disabled</string>
+    <string name="notifications_enabled">Reminders enabled</string>
+    <string name="notifications_disabled">Reminders disabled</string>
+    <string name="reminder_set">Daily reminder set for %s</string>
+    <string name="data_cleared">All data cleared successfully</string>
+
+    <!-- Dialogs -->
+    <string name="clear_data_title">Clear All Data?</string>
+    <string name="clear_data_message">This will delete all your workouts, statistics, and achievements. This action cannot be undone!</string>
+    <string name="yes_delete">Yes, Delete Everything</string>
+
+    <!-- Notifications -->
+    <string name="notification_title">Time to workout! 💪</string>
+    <string name="notification_text">Keep your streak going! Start a quick workout now.</string>
+    <string name="notification_channel_name">Workout Reminders</string>
+    <string name="notification_channel_description">Daily reminders to workout</string>
+
+    <!-- Achievements Screen -->
+    <string name="achievements_title0">Achievements</string>
+    <string name="achievements_title">🏆 Your achievements</string>
+    <string name="achievements_placeholder">Achievements will appear here after your first workout!</string>
+    <string name="achievements_unlocked_summary">Unlocked: %d / %d</string>
+
+    <!-- Achievement category headers -->
+    <string name="category_first_steps">First Steps</string>
+    <string name="category_workouts">Workouts</string>
+    <string name="category_reps">Total Reps</string>
+    <string name="category_streak">Streak</string>
+    <string name="category_squats">Squats</string>
+    <string name="category_pushups">Push-ups</string>
+    <string name="category_jumping_jacks">Jumping Jacks</string>
+    <string name="category_plank">Plank</string>
+    <string name="category_accuracy">Accuracy</string>
+    <string name="category_time">Training Time</string>
+    <string name="category_session">Single Session</string>
+
+    <!-- Achievement titles and descriptions -->
+    <string name="achievement_first_workout_title">First Steps</string>
+    <string name="achievement_first_workout_desc">Complete your first workout</string>
+
+    <string name="achievement_first_10_reps_title">Getting Started</string>
+    <string name="achievement_first_10_reps_desc">Complete 10 reps total</string>
+
+    <string name="achievement_10_workouts_title">Dedicated</string>
+    <string name="achievement_10_workouts_desc">Complete 10 workouts</string>
+
+    <string name="achievement_50_workouts_title">Committed</string>
+    <string name="achievement_50_workouts_desc">Complete 50 workouts</string>
+
+    <string name="achievement_100_workouts_title">Century</string>
+    <string name="achievement_100_workouts_desc">Complete 100 workouts</string>
+
+    <string name="achievement_100_reps_title">Bronze</string>
+    <string name="achievement_100_reps_desc">Complete 100 reps total</string>
+
+    <string name="achievement_500_reps_title">Silver</string>
+    <string name="achievement_500_reps_desc">Complete 500 reps total</string>
+
+    <string name="achievement_1000_reps_title">Gold</string>
+    <string name="achievement_1000_reps_desc">Complete 1,000 reps total</string>
+
+    <string name="achievement_5000_reps_title">Diamond</string>
+    <string name="achievement_5000_reps_desc">Complete 5,000 reps total</string>
+
+    <string name="achievement_streak_3_title">Hot Streak</string>
+    <string name="achievement_streak_3_desc">Train 3 days in a row</string>
+
+    <string name="achievement_streak_7_title">Week Warrior</string>
+    <string name="achievement_streak_7_desc">Train 7 days in a row</string>
+
+    <string name="achievement_streak_30_title">Monthly Master</string>
+    <string name="achievement_streak_30_desc">Train 30 days in a row</string>
+
+    <string name="achievement_streak_100_title">Unstoppable</string>
+    <string name="achievement_streak_100_desc">Train 100 days in a row</string>
+
+    <string name="achievement_25_workouts_title">On a Roll</string>
+    <string name="achievement_25_workouts_desc">Complete 25 workouts</string>
+    <string name="achievement_200_workouts_title">Elite</string>
+    <string name="achievement_200_workouts_desc">Complete 200 workouts</string>
+    <string name="achievement_500_workouts_title">Legend</string>
+    <string name="achievement_500_workouts_desc">Complete 500 workouts</string>
+
+    <string name="achievement_250_reps_title">Rising Star</string>
+    <string name="achievement_250_reps_desc">Complete 250 reps total</string>
+    <string name="achievement_2500_reps_title">Champion</string>
+    <string name="achievement_2500_reps_desc">Complete 2,500 reps total</string>
+    <string name="achievement_10000_reps_title">Legend</string>
+    <string name="achievement_10000_reps_desc">Complete 10,000 reps total</string>
+
+    <string name="achievement_streak_14_title">Two Week Warrior</string>
+    <string name="achievement_streak_14_desc">Train 14 days in a row</string>
+    <string name="achievement_streak_60_title">Iron Will</string>
+    <string name="achievement_streak_60_desc">Train 60 days in a row</string>
+    <string name="achievement_streak_365_title">Year Round</string>
+    <string name="achievement_streak_365_desc">Train 365 days in a row</string>
+
+    <string name="achievement_squats_50_title">Squat Starter</string>
+    <string name="achievement_squats_50_desc">Complete 50 squats total</string>
+    <string name="achievement_squats_500_title">Squat Pro</string>
+    <string name="achievement_squats_500_desc">Complete 500 squats total</string>
+    <string name="achievement_squats_2000_title">Squat Master</string>
+    <string name="achievement_squats_2000_desc">Complete 2,000 squats total</string>
+
+    <string name="achievement_pushups_50_title">Push Starter</string>
+    <string name="achievement_pushups_50_desc">Complete 50 push-ups total</string>
+    <string name="achievement_pushups_500_title">Push Pro</string>
+    <string name="achievement_pushups_500_desc">Complete 500 push-ups total</string>
+    <string name="achievement_pushups_2000_title">Push Master</string>
+    <string name="achievement_pushups_2000_desc">Complete 2,000 push-ups total</string>
+
+    <string name="achievement_jacks_100_title">Jack Starter</string>
+    <string name="achievement_jacks_100_desc">Complete 100 jumping jacks total</string>
+    <string name="achievement_jacks_1000_title">Jack Pro</string>
+    <string name="achievement_jacks_1000_desc">Complete 1,000 jumping jacks total</string>
+    <string name="achievement_jacks_5000_title">Jack Master</string>
+    <string name="achievement_jacks_5000_desc">Complete 5,000 jumping jacks total</string>
+
+    <string name="achievement_plank_60_title">Plank Beginner</string>
+    <string name="achievement_plank_60_desc">Hold plank for 1 minute total</string>
+    <string name="achievement_plank_600_title">Plank Pro</string>
+    <string name="achievement_plank_600_desc">Hold plank for 10 minutes total</string>
+    <string name="achievement_plank_3600_title">Plank Master</string>
+    <string name="achievement_plank_3600_desc">Hold plank for 1 hour total</string>
+
+    <string name="achievement_accuracy_1_title">Perfectionist</string>
+    <string name="achievement_accuracy_1_desc">Complete 1 workout with 80%+ accuracy</string>
+    <string name="achievement_accuracy_5_title">Form Expert</string>
+    <string name="achievement_accuracy_5_desc">Complete 5 workouts with 80%+ accuracy</string>
+    <string name="achievement_accuracy_20_title">Flawless</string>
+    <string name="achievement_accuracy_20_desc">Complete 20 workouts with 80%+ accuracy</string>
+
+    <string name="achievement_time_1h_title">Hour Warrior</string>
+    <string name="achievement_time_1h_desc">Train for a total of 1 hour</string>
+    <string name="achievement_time_10h_title">Devoted</string>
+    <string name="achievement_time_10h_desc">Train for a total of 10 hours</string>
+    <string name="achievement_time_50h_title">Athlete</string>
+    <string name="achievement_time_50h_desc">Train for a total of 50 hours</string>
+
+    <string name="achievement_session_50_title">Power Session</string>
+    <string name="achievement_session_50_desc">Complete 50 reps in a single workout</string>
+    <string name="achievement_session_100_title">Century Session</string>
+    <string name="achievement_session_100_desc">Complete 100 reps in a single workout</string>
+
+    <!-- Progress labels -->
+    <string name="achievement_unlocked">✓ Unlocked</string>
+
+    <!-- Backup -->
+    <string name="settings_backup">Backup &amp; Restore</string>
+    <string name="export_data">Export Data</string>
+    <string name="import_data">Import Data</string>
+    <string name="export_backup">Export Backup</string>
+    <string name="export_success">Backup created! Share or save it.</string>
+    <string name="export_failed">Export failed</string>
+    <string name="import_failed">Import failed</string>
+    <string name="restore_title">Restore Data?</string>
+    <string name="restore_message">This will replace all current data with backup data. Continue?</string>
+    <string name="restore">Restore</string>
+    <string name="restore_success">Data restored successfully!</string>
+    <string name="restore_failed">Restore failed</string>
+
+    <!-- Auth -->
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="password_reset_sent">Password reset email sent!</string>
+    <string name="account_created">Account created successfully!</string>
+    <string name="welcome_back">Welcome back!</string>
+
+    <!-- Firebase -->
+    <string name="firebase_error">Firebase error occurred</string>
+    <string name="auth_error">Authentication failed</string>
+    <string name="network_error">Network error. Check your connection.</string>
+
+    <!-- Login -->
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="continue_without_account">Continue without account</string>
+    <string name="signed_in_as">Signed in as:</string>
+    <string name="not_signed_in">Not signed in</string>
+    <string name="last_sync">Last sync:</string>
+    <string name="sync_now">Sync Now</string>
+    <string name="syncing">Syncing...</string>
+    <string name="sync_success">Synced successfully</string>
+    <string name="sync_failed">Sync failed</string>
+    <string name="cloud_storage">Cloud Storage:</string>
+    <string name="backup_count">Backups:</string>
+
+    <!-- Account -->
+    <string name="account">Account</string>
+    <string name="cloud_backup">Cloud Backup</string>
+    <string name="sign_in_to_backup">Sign in to backup your data to the cloud</string>
+    <string name="auto_sync_enabled">Auto-sync enabled</string>
+
+    <!-- Password Change -->
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password (min 6 characters)</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="password_changed">Password changed successfully!</string>
+    <string name="passwords_dont_match">Passwords don\'t match</string>
+    <string name="password_must_be_different">New password must be different from current password</string>
+    <string name="current_password_incorrect">Current password is incorrect</string>
+
+    <!-- Sync Progress -->
+    <string name="preparing_backup">Preparing backup...</string>
+    <string name="checking_cloud">Checking cloud backup...</string>
+    <string name="downloading_backup">Downloading backup...</string>
+    <string name="restoring_data">Restoring data...</string>
+    <string name="uploading_backup">Uploading backup...</string>
+    <string name="data_restored">Data restored from cloud!</string>
+    <string name="backup_complete">Backup complete</string>
+
+    <!-- Result Screen -->
+    <string name="results_title">Results</string>
+    <string name="great_work">Great work!</string>
+    <string name="result_reps">Reps: %d</string>
+    <string name="result_time">Time: %d sec</string>
+    <string name="result_accuracy">Accuracy: %d%%</string>
+    <string name="go_home">GO HOME</string>
+    <string name="try_again">TRY AGAIN</string>
+
+    <!-- Sync Conflict -->
+    <string name="sync_conflict_title">⚠️ Sync Conflict Detected</string>
+    <string name="sync_conflict_message">Your local data and cloud data are different. What would you like to do?</string>
+    <string name="download_from_cloud">⬇️ Download from Cloud</string>
+    <string name="upload_to_cloud">⬆️ Upload to Cloud</string>
+    <string name="confirm_download_title">⚠️ Confirm Download</string>
+    <string name="confirm_upload_title">⚠️ Confirm Upload</string>
+    <string name="sync_cancelled">Sync cancelled</string>
+
+    <!-- Email Verification -->
+    <string name="verify_email">Verify Email</string>
+    <string name="email_not_verified">Email not verified</string>
+    <string name="email_verified">Email verified</string>
+    <string name="resend_verification">Resend Email</string>
+    <string name="verification_sent">Verification email sent</string>
+    <string name="open_email">Open Email</string>
+    <string name="check_email">Check your email</string>
+    <string name="creating_account">Creating Account</string>
+</resources>

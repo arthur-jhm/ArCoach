@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_achievement"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Иконка достижения -->
+        <TextView
+            android:id="@+id/tv_achievement_icon"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:text="🏆"
+            android:textSize="36sp"
+            android:gravity="center"
+            android:background="@drawable/bg_achievement_icon"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Информация о достижении -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_achievement_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Workout"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tv_achievement_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Complete your first workout"
+                android:textSize="14sp"
+                android:textColor="#666666"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Прогресс-бар -->
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:max="100"
+                android:progress="50"
+                android:layout_marginBottom="4dp" />
+
+            <!-- Текст прогресса -->
+            <TextView
+                android:id="@+id/tv_achievement_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5 / 10 (50%)"
+                android:textSize="12sp"
+                android:textColor="#999999" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Заблокированные достижения -->
+    <View
+        android:id="@+id/lock_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80FFFFFF"
+        android:visibility="gone" />
+
+</androidx.cardview.widget.CardView>
