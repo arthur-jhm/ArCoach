@@ -10,8 +10,8 @@ import am.arthur.arcoach.database.WorkoutRepository;
 
 public class AchievementManager {
 
-    private Context context;
-    private WorkoutRepository repository;
+    private final Context context;
+    private final WorkoutRepository repository;
 
     public AchievementManager(Context context) {
         this.context = context;

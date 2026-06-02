@@ -11,9 +11,9 @@ import java.util.concurrent.Executors;
 
 public class WorkoutRepository {
 
-    private WorkoutDao workoutDao;
-    private AchievementDao achievementDao;
-    private ExecutorService executorService;
+    private final WorkoutDao workoutDao;
+    private final AchievementDao achievementDao;
+    private final ExecutorService executorService;
 
     public WorkoutRepository(Context context) {
         AppDatabase database = AppDatabase.getInstance(context);

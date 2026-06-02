@@ -15,7 +15,7 @@ import am.arthur.arcoach.utils.MyLog;
 public class AuthManager {
 
     private static final String TAG = "AuthManager";
-    private FirebaseAuth firebaseAuth;
+    private final FirebaseAuth firebaseAuth;
 
     public interface AuthCallback {
         void onSuccess(FirebaseUser user);

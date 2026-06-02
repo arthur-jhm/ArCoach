@@ -10,7 +10,7 @@ import am.arthur.arcoach.R;
 
 public class VoiceCoach {
     private final Context context;
-    private TextToSpeech tts;
+    private final TextToSpeech tts;
     private float volume = 1.0f;
     private boolean isReady = false;
     private int lastRepCount = 0;

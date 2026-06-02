@@ -16,9 +16,9 @@ import am.arthur.arcoach.R;
 
 public class AvatarAdapter extends RecyclerView.Adapter<AvatarAdapter.AvatarViewHolder> {
 
-    private List<String> avatars;
+    private final List<String> avatars;
     private String selectedAvatar;
-    private OnAvatarClickListener listener;
+    private final OnAvatarClickListener listener;
 
     public interface OnAvatarClickListener {
         void onAvatarClick(String avatar);

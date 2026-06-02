@@ -20,11 +20,11 @@ public class SyncManager {
     private static final String PREF_AUTO_SYNC_ENABLED = "auto_sync_enabled";
     private static final String PREF_FIRST_SYNC_DONE = "first_sync_done";
 
-    private Context context;
-    private AuthManager authManager;
-    private FirestoreManager firestoreManager;
-    private WorkoutRepository repository;
-    private UserPreferences userPreferences;
+    private final Context context;
+    private final AuthManager authManager;
+    private final FirestoreManager firestoreManager;
+    private final WorkoutRepository repository;
+    private final UserPreferences userPreferences;
 
     public interface SyncCallback {
         void onSyncStarted();

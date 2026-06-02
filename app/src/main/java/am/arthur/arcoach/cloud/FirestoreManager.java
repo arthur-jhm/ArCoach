@@ -28,8 +28,8 @@ public class FirestoreManager {
     private static final String DOC_PROFILE_DATA = "data";
     private static final String DOC_SYNC_METADATA = "sync_metadata";
 
-    private FirebaseFirestore db;
-    private FirebaseAuth auth;
+    private final FirebaseFirestore db;
+    private final FirebaseAuth auth;
 
     public interface UploadCallback {
         void onProgress(int progress, String message);
